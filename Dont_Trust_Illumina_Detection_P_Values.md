@@ -34,5 +34,5 @@ The Smart thing to do!
 if `PROBE.i` in `SAMPLE.j` is `>=` the `MEAN` of the `NEGAVTIVE_BEADS.SAMPLE.j` then `PROBE.i` is `DETECTED` in `SAMPLE.j`
 *****
 
-***EXAMPLE CODE TO COME......****
+***EXAMPLE CODE TO COME......***
 
