@@ -6,10 +6,10 @@ Dont Trust Illumina Detection P-Values
 - Observations from multiple projects and multiple tissues (Blood, Brain).  
 
 
-- If you build a rule as follows:- 
+- If you build a rule in R as follows:- 
 
 ```    
-    *if(XIST_detection_p<0.01) then FEMALE*  
+GENDER <- ifelse( XIST_detection_p <= 0.01, "FEAMLE","MALE")
 ```
 
 - The majority of your samples will be miss-classified as FEMALE
