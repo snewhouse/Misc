@@ -16,7 +16,7 @@ GENDER <- ifelse( XIST_detection_p <= 0.01, "FEAMLE","MALE")
 
 ******
 
-Fix
+The Smart thing to do!
 ======================================================
 
 ## Option A
