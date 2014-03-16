@@ -1,5 +1,5 @@
-Dont Trust Illumina Detection P-Values at Th=0.01
-==================================================
+Expression Arrays : Dont Trust Illumina Detection P-Values at Th=0.01
+======================================================================
 
 - Based on XIST probe expression.
 - XIST gene expressed only in Females
