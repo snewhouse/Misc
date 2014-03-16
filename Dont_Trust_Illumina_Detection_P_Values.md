@@ -11,18 +11,25 @@ GENDER <- ifelse( XIST_detection_p <= 0.01, "FEAMLE","MALE")
 ```
 
 - The majority of your samples will be miss-classified as FEMALE
+- This is all the evidence you need to see that using a threshold of 0.05 or 0.01 is just plain wrong
+- You will be analysing data and building prediction models based on noise
 
-## Fix
+******
+
+Fix
+======================================================
+
+## Option A
 
 - Set detection pvalue threshold to 0
 
-***OR***
+## Option B
 
 - Use negative bead data
 - Background correct your data using ***MBCB (Model-based Background Correction for Beadarray)***
 - http://www.bioconductor.org/packages/release/bioc/html/MBCB.html
 - Make a rule where:
 
-if probe *i* in sample *j* is >= the mean of the NEGAVTIVE_BEAD for sample *i*, then probe *i* is DETECTED  
+if PROBE.*i* in SAMPLE.*j* is ***>=*** the mean of the NEGAVTIVE_BEAD for SAMPLE.*i*, then PROBE.*i* is ***DETECTED***  
 
 
