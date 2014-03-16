@@ -1,5 +1,5 @@
-Dont Trust Illumina Detection P-Values
-========================================
+Dont Trust Illumina Detection P-Values at Th=0.01
+==================================================
 
 - Based on XIST probe expression.
 - XIST gene expressed only in Females
@@ -11,3 +11,18 @@ GENDER <- ifelse( XIST_detection_p <= 0.01, "FEAMLE","MALE")
 ```
 
 - The majority of your samples will be miss-classified as FEMALE
+
+## Fix
+
+- Set detection pvalue threshold to 0
+
+***OR***
+
+- Use negative bead data
+- Background correct your data using ***MBCB (Model-based Background Correction for Beadarray)***
+- http://www.bioconductor.org/packages/release/bioc/html/MBCB.html
+- Make a rule where:
+
+```
+if probe *i* in sample *j* is >= the mean of the NEGAVTIVE_BEAD for sample *i*  
+```
