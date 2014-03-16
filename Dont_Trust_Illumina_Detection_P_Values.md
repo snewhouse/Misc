@@ -31,6 +31,6 @@ Fix
 - Make a rule where:
 
 
-if `PROBE.*i*` in `SAMPLE.*j*` is ***>=*** the mean of the NEGAVTIVE_BEAD for SAMPLE.*i*, then PROBE.*i* is ***DETECTED***  
+if `PROBE.i` in `SAMPLE.j` is `>=` the `MEAN` of the `NEGAVTIVE_BEAD` for `SAMPLE.i` then `PROBE.i` is `DETECTED`  
 
 
