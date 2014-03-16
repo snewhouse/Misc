@@ -23,6 +23,6 @@ GENDER <- ifelse( XIST_detection_p <= 0.01, "FEAMLE","MALE")
 - http://www.bioconductor.org/packages/release/bioc/html/MBCB.html
 - Make a rule where:
 
-```
-if probe *i* in sample *j* is >= the mean of the NEGAVTIVE_BEAD for sample *i*  
-```
+if probe *i* in sample *j* is >= the mean of the NEGAVTIVE_BEAD for sample *i*, then probe *i* is DETECTED  
+
+
