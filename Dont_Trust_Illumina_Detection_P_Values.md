@@ -6,7 +6,7 @@ Expression Arrays : Dont Trust Illumina Detection P-Values at Th=0.01
 - Observations from multiple projects and multiple tissues (Blood, Brain)
 - If you build a rule in R as follows :- 
 
-```    
+```R
 GENDER <- ifelse( XIST_detection_p <= 0.01, "FEAMLE","MALE")
 ```
 
