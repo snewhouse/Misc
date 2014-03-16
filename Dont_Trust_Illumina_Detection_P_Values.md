@@ -31,6 +31,6 @@ The Smart thing to do!
 - Make a rule where:
 
 
-if `PROBE.i` in `SAMPLE.j` is `>=` the `MEAN` of the `NEGAVTIVE_BEAD` for `SAMPLE.i` then `PROBE.i` is `DETECTED` in `SAMPLE.j`
+if `PROBE.i` in `SAMPLE.j` is `>=` the `MEAN` of the `NEGAVTIVE_BEADS.SAMPLE.j` then `PROBE.i` is `DETECTED` in `SAMPLE.j`
 
 
