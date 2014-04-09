@@ -30,8 +30,11 @@ The Smart thing to do!
 - http://www.bioconductor.org/packages/release/bioc/html/MBCB.html
 - Make a rule where:
 
-
 if `PROBE.i` in `SAMPLE.j` is `>=` the `MEAN` of the `NEGAVTIVE_BEADS.SAMPLE.j` then `PROBE.i` is `DETECTED` in `SAMPLE.j`
+**********
+
+This is implemented in our [gene expression workflow]()
+
 *****
 
 ***EXAMPLE CODE TO COME......***
