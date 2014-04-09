@@ -33,7 +33,7 @@ The Smart thing to do!
 if `PROBE.i` in `SAMPLE.j` is `>=` the `MEAN` of the `NEGAVTIVE_BEADS.SAMPLE.j` then `PROBE.i` is `DETECTED` in `SAMPLE.j`
 **********
 
-This is implemented in our [gene expression workflow]()
+This is implemented in our [gene expression workflow](https://github.com/snewhouse/BRC_MH_Bioinformatics/tree/master/Illumina_expression_workflow)
 
 *****
 
